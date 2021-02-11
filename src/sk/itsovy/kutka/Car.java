@@ -2,7 +2,7 @@ package sk.itsovy.kutka;
 
 public class Car {
 
-    public void fuelType(String fuel) {
-        System.out.println(fuel);
+    public void fuelType(String fuels) {
+        System.out.print(fuels);
     }
 }
