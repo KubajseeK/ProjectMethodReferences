@@ -3,8 +3,9 @@ package sk.itsovy.kutka;
 public class Main {
 
     public static void main(String[] args) {
-	Car car = new Car();
-	CarInterface ref = car::fuelType;
+	Car cars = new Car();
+	    //added comment
+	CarInterface ref = cars::fuelType;
 	ref.printFuelType("Gasoline");
     }
 }
