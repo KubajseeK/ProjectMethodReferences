@@ -5,8 +5,9 @@ import java.util.function.BiFunction;
 public class Main {
 
     public static void main(String[] args) {
-	Car car = new Car();
-	CarInterface ref = car::fuelType;
+	Car cars = new Car();
+	    //added comment
+	CarInterface ref = cars::fuelType;
 	ref.printFuelType("Gasoline");
 
 	BiFunction<Integer, Integer, Integer> product = Addition::add;
